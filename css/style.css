@@ -1,0 +1,39 @@
+body
+{
+	background-color: #fff;
+}
+
+/*头部*/
+header
+{
+	position: relative;
+	height: 44px;
+	background-color: #555;
+	color: #fff;
+}
+header h1
+{
+	margin: 0;
+	font-size: 18px;
+	line-height: 44px;
+	text-align: center;
+}
+
+/*链接*/
+section
+{
+	padding: 25px;
+}
+section a
+{
+	border: 1px solid #eee;
+	padding: 10px 15px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+section a:hover,
+section a:focus
+{
+	text-decoration: none;
+}
